@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+}
+.content{
+    background-color: rgb(99, 6, 206);
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+}
+.card{
+    background-color: bisque;
+    width:270px;
+    padding:10px;
+    margin:20px;
+   
+    transition:0.6s;
+}
+img{
+    width:100%;
+}
+.lapa{
+    width:50px ;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.link a{
+    color: rgb(14, 15, 11);
+    text-decoration:solid;
+    
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link a:hover{
+    color: blue;
+}
+.img{
+    width:100% ;
+}
+h1{
+    text-align: center;
+    font-family: "Kablammo", serif;
+}
+.card:hover{
+    background-color: rgb(0, 255, 42);
+    box-shadow: 0px 0px 20px gray;
+
+}
+
